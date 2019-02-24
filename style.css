@@ -1,0 +1,78 @@
+.jumbotron { 
+    height: 85vh;
+    background-image: url("./images/wuste.jpg");
+    margin-bottom: 0px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: -5vh;
+
+    
+
+}
+
+@media screen and (min-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+
+
+h1 span {
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0.08em;
+}
+
+p {
+    text-align: center;
+}
+
+
+.logo {
+    height: 15vh;
+    width: auto;
+    
+}
+
+
+
+.kontakt {
+    position: absolute;
+    bottom: 1em;
+
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
+    color: black;
+  }
+  
+  /* Facebook */
+  .fa-facebook-square {
+
+   color: white;
+  }
+
+  
